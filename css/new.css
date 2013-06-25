@@ -1,0 +1,86 @@
+/*Global Reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 18px 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #00a; }
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/*Custom CSS*/
+
+div.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+div.header {
+  margin-top: 16px;
+}
+
+h1.title {
+  font-size: 120%;
+}
+
+/* Post Title */
+h2 {
+  font-size: 110%;
+}
+
+p.meta {
+  color: #ccc;
+}
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts li span.date {
+  margin-left: 6px;
+  color: #ccc;
+}
+
+div.footer {
+  font-size: 90%;
+}
+
+div.footer hr {
+  height: 1px;
+  border: 0;
+  color: #ccc;
+  background-color: #ccc;
+  width: 100%;
+}
+
+div.footer div.contact {
+  float: left;
+  margin-right: 50px;
+}
+
+div#post ul {
+  margin-left: 50px;
+}
