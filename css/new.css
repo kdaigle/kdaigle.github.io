@@ -39,7 +39,19 @@ div.header {
 }
 
 h1.title {
-  font-size: 120%;
+  font-size: 150%;
+}
+
+h1.title a {
+  color: #000;
+}
+
+h1.title a:hover {
+  text-decoration: none;
+}
+
+p.lead {
+  font-size: 106%;
 }
 
 /* Post Title */
@@ -79,8 +91,10 @@ div.footer hr {
 
 div.footer div.contact {
   float: left;
-  margin-right: 50px;
+  margin-right: 34px;
 }
+
+/*Posts*/
 
 div#post ul {
   margin-left: 50px;
