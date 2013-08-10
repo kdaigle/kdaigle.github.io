@@ -100,3 +100,10 @@ div.footer div.contact {
 div#post ul {
   margin-left: 50px;
 }
+
+div#post blockquote {
+  border-left: 4px solid #ccc;
+  margin-left: 16px;
+  padding-left: 8px;
+  color: #777;
+}
