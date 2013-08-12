@@ -30,7 +30,7 @@ table {
 /*Custom CSS*/
 
 div.container {
-  width: 600px;
+  width: 620px;
   margin: 0px auto;
   padding: 0 24px 24px;
 }
@@ -79,7 +79,7 @@ ul.posts li span.date {
 }
 
 div.footer {
-  font-size: 90%;
+  font-size: 78%;
 }
 
 div.footer hr {
