@@ -55,6 +55,33 @@ p.lead {
   font-size: 106%;
 }
 
+hr {
+  height: 1px;
+  border: 0;
+  color: #ccc;
+  background-color: #ccc;
+  width: 100%;
+}
+
+hr + h3 {
+  padding-top: 1em;
+}
+
+/* Currently... */
+
+ul.currently {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+ul.currently li {
+  line-height: 1.75em;
+}
+
+ul.currently li a {
+  font-weight: bold;
+}
+
 /* Post Title */
 h2 {
   font-size: 110%;
@@ -80,14 +107,6 @@ ul.posts li span.date {
 
 div.footer {
   font-size: 78%;
-}
-
-div.footer hr {
-  height: 1px;
-  border: 0;
-  color: #ccc;
-  background-color: #ccc;
-  width: 100%;
 }
 
 div.footer div.contact {

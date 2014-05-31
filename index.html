@@ -4,7 +4,17 @@ title: Kyle Daigle
 ---
 
 <div id="home">
-  <p class="lead">I am a developer at <a href="http://www.github.com">GitHub</a>. Stay and read a while. Looking for <a href="#contact">something else</a>?</p>
+  <p class="lead">
+    I am a developer at <a href="http://www.github.com">GitHub</a>.
+    Stay and read a while. Looking for <a href="#contact">something else</a>?
+  </p>
+  <h3>Currently, I am...</h3>
+  <ul class="currently">
+    <li>...playing <a href="http://amzn.to/1m0UYem">Super Mario World 3D</a></li>
+    <li>...reading <a href="http://amzn.to/1pHg5WT">Creativity, Inc.</a></li>
+  </ul>
+  <hr/>
+  <h3>Things I've Written About</h3>
   <ul class="posts">
     {% for post in site.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%B %-d, %Y" }}</span></li>
