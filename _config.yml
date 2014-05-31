@@ -1,5 +1,6 @@
 name: Kyle Daigle
 highlighter: pigments
+markdown: kramdown
 site: Kyle Daigle
 description: "Articles about development, people, software, and products written by Kyle Daigle."
 url: "http://kyledaigle.com"
